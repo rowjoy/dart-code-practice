@@ -1,9 +1,8 @@
-import 'ifelse.dart';
+import 'forloop.dart';
 
 void main() {
-  final obj = Mcondation();
-  obj.losic1();
-  obj.losic2();
-  print('${obj.losic1()}');
-  print('${obj.losic2()}');
+  final obj = Forloop();
+  obj.forloopup();
+  Forloop.forloopdown();
+  Forloop.numlist();
 }
